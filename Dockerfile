@@ -13,6 +13,6 @@ RUN docker-php-ext-install zip memcached
 # Define Mautic version and expected SHA1 signature
 ENV MAUTIC_VERSION 1.4.0
 ENV MAUTIC_SHA1 da91683b3b7b9ea2e4eb39525a47a89bbf20c75d
-
+   
 COPY crons.conf /crons.conf
 RUN /usr/bin/crontab /crons.conf
