@@ -1,10 +1,3 @@
-Docker Nodejs
-======================
+# Docker Mautic
 
-
-ENV NODE_ENV
-ENV APP_PORT
-ENV REPO
-
-# Licence
-Private Licensed
+http://mautic.com/
